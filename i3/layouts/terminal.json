@@ -1,0 +1,83 @@
+// vim:ts=4:sw=4:et
+{
+    "border": "pixel",
+    "current_border_width": 5,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 1026,
+       "width": 1890,
+       "x": 0,
+       "y": 0
+    },
+    "marks": [],
+    "name": "i3-save-tree --workspace \"Terminal\" > ~/.config/i3/layouts/terminal.json\\n",
+    "percent": 0.5,
+    "swallows": [
+       {
+       // "class": "^kitty$",
+       // "instance": "^kitty$",
+       // "machine": "^fedora$",
+       // "title": "^i3\\-save\\-tree\\ \\-\\-workspace\\ \\\"Terminal\\\"\\ \\>\\ \\~\\/\\.config\\/i3\\/layouts\\/terminal\\.json\\\\n$"
+       }
+    ],
+    "type": "con"
+}
+
+{
+    // splitv split container with 2 children
+    "border": "none",
+    "floating": "auto_off",
+    "layout": "splitv",
+    "marks": [],
+    "percent": 0.5,
+    "type": "con",
+    "nodes": [
+        {
+            "border": "pixel",
+            "current_border_width": 5,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 1026,
+               "width": 1890,
+               "x": 0,
+               "y": 0
+            },
+            "marks": [],
+            "name": "~",
+            "percent": 0.5,
+            "swallows": [
+               {
+               // "class": "^kitty$",
+               // "instance": "^kitty$",
+               // "machine": "^fedora$",
+               // "title": "^\\~$"
+               }
+            ],
+            "type": "con"
+        },
+        {
+            "border": "pixel",
+            "current_border_width": 5,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 503,
+               "width": 935,
+               "x": 0,
+               "y": 0
+            },
+            "marks": [],
+            "name": "New Document (Draft) - Text Editor",
+            "percent": 0.5,
+            "swallows": [
+               {
+               // "class": "^gnome\\-text\\-editor$",
+               // "instance": "^gnome\\-text\\-editor$",
+               // "machine": "^fedora$",
+               // "title": "^New\\ Document\\ \\(Draft\\)\\ \\-\\ Text\\ Editor$"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+
